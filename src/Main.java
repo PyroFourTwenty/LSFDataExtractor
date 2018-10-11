@@ -29,6 +29,7 @@ public class Main {
     public static ArrayList<ModulHref> modulHrefs = new ArrayList<>();
 
     public static synchronized void findGroups(Document doc){
+        System.out.println("asdfsdf");
         Elements e = doc.getElementsByTag("tr");
         String [] s;
         String veranstaltung = "", gr = "", termin = "", information = "", studiengang = "";
